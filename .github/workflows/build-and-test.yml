@@ -1,0 +1,30 @@
+# =====================================================
+# GitHub Actions Workflow — Build and Test
+# =====================================================
+# This workflow is a PLACEHOLDER until the backend
+# project exists. Once Module 1 (backend scaffold)
+# is complete, this file will be updated to:
+# 1. Restore NuGet packages
+# 2. Build the .NET 8 solution
+# 3. Run xUnit tests
+# 4. Report pass/fail on every PR to main
+#
+# This is the GitHub equivalent of Azure DevOps
+# pipeline — same concept, different platform.
+# =====================================================
+
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Placeholder
+        run: echo "Pipeline placeholder — will build .NET 8 solution in Module 1"

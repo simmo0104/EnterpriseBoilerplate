@@ -1,0 +1,55 @@
+# ========================
+# .NET / ASP.NET Core
+# ========================
+
+# Build output - auto-generated, never commit
+bin/
+obj/
+
+# Visual Studio / VS Code local settings - machine specific
+.vs/
+*.user
+*.suo
+
+# NuGet packages - restored via dotnet restore
+packages/
+*.nupkg
+
+# App settings with secrets - NEVER commit secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# ========================
+# Angular / Node
+# ========================
+
+# NPM packages - restored via npm install
+node_modules/
+
+# Angular build output - auto-generated
+dist/
+.angular/
+
+# Environment files with secrets
+.env
+.env.local
+
+# ========================
+# General
+# ========================
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ========================
+# Database
+# ========================
+
+# Local database files
+*.mdf
+*.ldf
